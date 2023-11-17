@@ -17,7 +17,7 @@ variable "ami_id" {
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "ayan-general288882"
+  default     = "ayan-genera7368201982038472902"
 }
 
 variable "acl" {
