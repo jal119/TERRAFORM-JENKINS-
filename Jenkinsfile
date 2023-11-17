@@ -12,7 +12,7 @@ pipeline{
         }
         stage('checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/Aj7Ay/TERRAFORM-JENKINS-CICD.git'
+                git branch: 'main', url: 'https://github.com/jal119/TERRAFORM-JENKINS-.git'
             }
         }
         stage('Terraform version'){
