@@ -14,7 +14,7 @@ variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
   default     = "ami-0fc5d935ebf8bc3bc"
 }
-variable "bucket_name" {
+variable "bucketname" {
   description = "The name of the S3 bucket to create"
   type        = string
   default     = "ayan-genera7368201982038472902"
